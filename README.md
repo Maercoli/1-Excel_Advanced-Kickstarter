@@ -2,7 +2,7 @@
 
 ## Project goal & actions
 
-This project is trying to uncover some market trends. Using the Excel table provided, I modified and analyzed the data of 4,000 past Kickstarter projects attempting to figure out market trends.
+Using the Excel table provided, I modified and analyzed the data of 4,000 past Kickstarter projects attempting to uncover some market trends.
 
 ### Background
 
