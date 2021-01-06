@@ -39,7 +39,7 @@ The modification on the Excel file ocurred as follows:
 
 9- I created a stacked column pivot chart that can be filtered by country and parent-category based on the table I created.
 
-## Final Table
+### Final Table
   ![Subcategory Stats](Images/SubcategoryStats.PNG)
 
 
@@ -53,7 +53,7 @@ Note: Since the dates stored within the `deadline` and `launched_at` columns use
 
 13- Finallly, I created a pivot chart line graph that visualizes this new table.
 
-## Final Table
+### Final Table
    ![Outcomes Based on Launch Date](Images/LaunchDateOutcomes.PNG)
 
 14- I created a report in Microsoft Word and answered the following questions:
@@ -66,8 +66,8 @@ Note: Since the dates stored within the `deadline` and `launched_at` columns use
 
 1- I created a new sheet with 8 columns:
 
-  * `Goal`	* `Number Successful`	* `Number Failed`	* `Number Canceled`	* `Total Projects`
-  * `Percentage Successful`	* `Percentage Failed`	* `Percentage Canceled`
+  	* `Goal`	* `Number Successful`	* `Number Failed`	* `Number Canceled`	* `Total Projects`
+  	* `Percentage Successful`	* `Percentage Failed`	* `Percentage Canceled`
 
 2- In the `Goal` column, I created 12 rows with the following headers:
 
@@ -90,7 +90,7 @@ Note: Since the dates stored within the `deadline` and `launched_at` columns use
 
 4- I create a line chart that graphs the relationship between a goal's amount and its chances at success, failure, or cancellation.
 
-### Table Image  
+### Table Table  
 ![Goal Outcomes](Images/GoalOutcomes.PNG)
 
 
