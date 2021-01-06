@@ -107,4 +107,4 @@ In this part of the project I evaluated the number of backers of successful and 
   * The variance of the number of backers.
   * The standard deviation of the number of backers.
 
-![Statistical Table](Images/backers01.PNG)
+![Images/backers01.png](Images/backers01.PNG)
