@@ -1,21 +1,22 @@
 # Kickstart My Chart
 
-## Background
+## Project goal & actions
+
+This project is trying to uncover some market trends. Using the Excel table provided, I modified and analyzed the data of 4,000 past Kickstarter projects attempting to figure out market trends.
+
+### Background
 
 Over $2 billion has been raised using the massively successful crowdfunding service, Kickstarter, but not every project has found success. Of the more than 300,000 projects launched on Kickstarter, only a third have made it through the funding process with a positive outcome.
 
 Getting funded on Kickstarter requires meeting or exceeding the project's initial goal, so many organizations spend months looking through past projects in an attempt to discover some trick for finding success. For this week's homework, you will organize and analyze a database of 4,000 past projects in order to uncover any hidden trends.
 
-
-## Project goal & actions
-
-This project is trying to uncover some market trends. Using the Excel table provided, I modified and analyzed the data of 4,000 past Kickstarter projects attempting to figure out market trends.
+### Working with the data
 
 The modification on the Excel file ocurred as follows:
 
 1- I filled each cell in the `state` column with a different color, depending on whether the associated campaign was successful, failed, or canceled, or is currently live.
 
-2- I created a new column O called `Percent Funded` that uses a formula to uncover how much money a campaign made to reach its initial goal.  * Create 
+2- I created a new column O called `Percent Funded` that uses a formula to uncover how much money a campaign made to reach its initial goal.
 
 3- I used conditional formatting to fill each cell in the `Percent Funded` column using a three-color scale. The scale started at 0 being a dark shade of red, transitioning to green at 100, and blue at 200.
 
@@ -23,7 +24,7 @@ The modification on the Excel file ocurred as follows:
 
 5- I created two new columns, one called `Category` at Q and another called `Sub-Category` at R, which use formulas to split the `Category and Sub-Category` column into two parts.
 
-## Final Table
+### Final Table
 ![Kickstarter Table](Images/FullTable.PNG)
 
 
@@ -31,7 +32,7 @@ The modification on the Excel file ocurred as follows:
 
 7- I created a stacked column pivot chart that can be filtered by country based on the new table created.
 
-## Table Image
+### Final Table
   ![Category Stats](Images/CategoryStats.PNG)
 
 8- I created a new sheet with a pivot table that analyzes the initial sheet to count how many campaigns were successful, failed, or canceled, or are currently live per **sub-category**.
@@ -55,24 +56,18 @@ Note: Since the dates stored within the `deadline` and `launched_at` columns use
 ## Final Table
    ![Outcomes Based on Launch Date](Images/LaunchDateOutcomes.PNG)
 
-* Create a report in Microsoft Word and answer the following questions.
+14- I created a report in Microsoft Word and answered the following questions:
 
-1. Given the provided data, what are three conclusions we can draw about Kickstarter campaigns?
-2. What are some limitations of this dataset?
-3. What are some other possible tables and/or graphs that we could create?
+	- What are three conclusions we can draw about Kickstarter campaigns?
+	- What are some limitations of this dataset?
+	- What are some other possible tables and/or graphs that we could create?
 
-## Beyond fisrt analisys
+## Beyond first analisys
 
 1- I created a new sheet with 8 columns:
 
-  * `Goal`
-  * `Number Successful`
-  * `Number Failed`
-  * `Number Canceled`
-  * `Total Projects`
-  * `Percentage Successful`
-  * `Percentage Failed`
-  * `Percentage Canceled`
+  * `Goal`	* `Number Successful`	* `Number Failed`	* `Number Canceled`	* `Total Projects`
+  * `Percentage Successful`	* `Percentage Failed`	* `Percentage Canceled`
 
 2- In the `Goal` column, I created 12 rows with the following headers:
 
@@ -89,24 +84,21 @@ Note: Since the dates stored within the `deadline` and `launched_at` columns use
   * 45000 to 49999
   * Greater than or equal to 50000
 
-### Table Image  
-![Goal Outcomes](Images/GoalOutcomes.PNG)
-
 3- Using the `COUNTIFS()` formula, I counted how many successful, failed, and canceled projects were created with goals within the ranges listed above. Then, I populated the `Number Successful`, `Number Failed`, and `Number Canceled` columns with this data.
 
 2- I added up each of the values in the `Number Successful`, `Number Failed`, and `Number Canceled` columns to populate the `Total Projects` column. Then, using a mathematical formula, I found the percentage of projects that were successful, failed, or canceled per goal range.
 
 4- I create a line chart that graphs the relationship between a goal's amount and its chances at success, failure, or cancellation.
 
+### Table Image  
+![Goal Outcomes](Images/GoalOutcomes.PNG)
+
+
 ## Statistical Analysis
 
 In this part of the project I evaluated the number of backers of successful and unsuccessful campaigns by creating "my own" summary statistics table.
 
-1- I created a new worksheet, and create a column each for the number of backers of successful campaigns and unsuccessful campaigns.
-
-  ![Images/backers01.png](Images/backers01.png)
-
-* Use Excel to evaluate the following for successful campaigns, and then for unsuccessful campaigns:
+1- I created a new worksheet, and created a column each for the number of backers of successful campaigns and unsuccessful campaigns. Then I evaluated the following for successful campaigns, and then for unsuccessful campaigns:
 
   * The mean number of backers.
   * The median number of backers.
@@ -114,9 +106,4 @@ In this part of the project I evaluated the number of backers of successful and 
   * The maximum number of backers.
   * The variance of the number of backers.
   * The standard deviation of the number of backers.
-
-* Use your data to determine whether the mean or the median summarizes the data more meaningfully.
-
-* Use your data to determine if there is more variability with successful or unsuccessful campaigns. Does this make sense? Why or why not?
-
 
